@@ -7,10 +7,5 @@ end
 wait(0.5)
 while true do
 wait(1)
-print("防掉线已开启")
-game:GetService("Players").LocalPlayer.Idled:connect(function()
-game:GetService("VirtualUser"):CaptureController()
-game:GetService("VirtualUser"):ClickButton2(Vector2.new())
-end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Argenl166/AL/main/MoneyPrinter"))()
 end
